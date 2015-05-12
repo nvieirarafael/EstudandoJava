@@ -15,5 +15,15 @@ public class CarroFiat extends Carro {
 		
 	}
 
+	@Override
+	public void correr() {
+		System.out.println("correndo com palio");
+		super.correr();
+	}
+	
+	
+	public void correr(String velocidade) {
+		super.correr("");
+	}
 
 }

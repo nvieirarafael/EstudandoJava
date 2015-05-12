@@ -21,6 +21,7 @@ public class Carro {
 	public void correr(){
 		int velocity = ano / 10;
 		System.out.println("Velocity: " + velocity);
+		System.out.println("correndo com carro simples");
 	}
 
 	public static void bater(Carro carro){
