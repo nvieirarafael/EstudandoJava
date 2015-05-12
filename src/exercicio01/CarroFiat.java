@@ -23,7 +23,7 @@ public class CarroFiat extends Carro {
 	
 	
 	public void correr(String velocidade) {
-		super.correr("");
+		super.correr();
 	}
 
 }
