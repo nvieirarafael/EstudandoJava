@@ -15,7 +15,7 @@ public class Main {
 		calculadoraAmarela.entrada2 = 8;
 		calculadoraAmarela.operador = '*';
 		
-		calculadoraAmarela.verificarOperacao();
+		calculadoraAmarela.verificarOperacao();;
 	}
 
 }
