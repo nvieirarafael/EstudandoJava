@@ -6,34 +6,22 @@ public class main {
 		// TODO Auto-generated method stub
 
 		
-		
 		Calculadora calc = new Calculadora();
 		
 		calc.x1 = 10;
-		calc.x2 = 5;
-		calc.operacao = 'm';
-		float resultado = 0;
+		calc.x2 = 0;
+		calc.operacao = 'd';
+		calc.Calcular();		
+
 		
-		switch (calc.operacao) {
-		case 'd':
-			resultado = calc.Dividir();
-			break;
-		case 's':
-			resultado = calc.Subtrair();
-			break;
-		case 'a':
-			resultado = calc.Adicionar();
-			break;			
-		case 'm':
-			resultado = calc.Multiplicar();
-			break;			
-			
-		default:
-			break;
-		}
 		
-		System.out.println("O resultado é: "+ resultado);
+		Calculadora calcAzul = new Calculadora();
 		
+		calcAzul.x1 = 7;
+		calcAzul.x2 = 8;
+		calcAzul.operacao = 'm';
+		calcAzul.Calcular();
+
 	}
 
 }

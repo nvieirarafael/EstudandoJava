@@ -1,45 +1,31 @@
 package exercicio03;
 
-public class Calculadora {
+public class Calculadora extends Operacao {
 	
-	public int x1;
-	public int x2;
-	public char operacao;
+	float resultado;
 	
-	public int Adicionar() {
+	void Calcular() {
 
-	
-		return x1 + x2;
-	}
-
-	public int Subtrair() {
-
-		
-		return x1 - x2;
-	}
-	
-	public int Multiplicar() {
-
-		
-		return x1 * x2;
-	}
-	
-	public float Dividir() {
-		
-		try
-		{
-			return x1/x2;
+		switch (operacao) {
+		case 'd':
+			resultado = Dividir();
+			break;
+		case 's':
+			resultado = Subtrair();
+			break;
+		case 'a':
+			resultado = Adicionar();
+			break;			
+		case 'm':
+			resultado = Multiplicar();
+			break;			
+			
+		default:
+			break;
 		}
-		catch (Exception ex)
-		{
-			System.out.println("Erro na divisão!!!");
-			return 0;
-		}
-		
+		System.out.println("O resultado é: "+ resultado);
+	
+	}	
 
-		
-	}
-	
-	
-	
 }
+
