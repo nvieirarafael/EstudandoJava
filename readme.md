@@ -3,3 +3,6 @@ Este repositório tem o intuito de armazenar os exercicios efetuados no estudo d
 Estamos separando cada exercicio em pacotes **(exercicio01, exercicio02,...)*** 
 
 [Exercicio 01](src/exercicio01/)
+[Exercicio 02](src/exercicio02/)
+[Exercicio 03](src/exercicio03/)
+[Exercicio 04](src/exercicio04/)
