@@ -1,4 +1,4 @@
-package exercicio03;
+package Exercicio03;
 
 public class Calculadora extends Operacao {
 	

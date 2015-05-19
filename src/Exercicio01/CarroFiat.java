@@ -1,4 +1,4 @@
-package exercicio01;
+package Exercicio01;
 
 public class CarroFiat extends Carro {
 	int qtdLitros;

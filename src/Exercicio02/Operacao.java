@@ -10,6 +10,8 @@ public abstract class Operacao {
 		this.a = a;
 		this.b = b;
 	}
+	
+
 
 	abstract int efetuar();
 	
