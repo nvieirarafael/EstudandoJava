@@ -1,4 +1,4 @@
-package Exercicio03;
+package exercicio01.calculadora02;
 
 
 
@@ -35,7 +35,7 @@ public class Operacao {
 		}
 		catch (Exception ex)
 		{
-			System.out.println("Erro na divisão!!!");
+			System.out.println("Erro na divisï¿½o!!!");
 			return 0;
 		}
 		

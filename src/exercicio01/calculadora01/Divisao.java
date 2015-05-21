@@ -1,4 +1,4 @@
-package Exercicio02;
+package exercicio01.calculadora01;
 
 public class Divisao extends Operacao{
 

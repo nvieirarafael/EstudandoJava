@@ -1,4 +1,4 @@
-package Exercicio03;
+package exercicio01.calculadora02;
 
 public class Calculadora extends Operacao {
 	
@@ -23,7 +23,7 @@ public class Calculadora extends Operacao {
 		default:
 			break;
 		}
-		System.out.println("O resultado é: "+ resultado);
+		System.out.println("O resultado ï¿½: "+ resultado);
 	
 	}	
 

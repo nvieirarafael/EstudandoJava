@@ -1,4 +1,4 @@
-package Exercicio04;
+package exercicio01.calculadora03;
 
 public class Main {
 
